@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\argo\\Desktop\\Adrian\\Activitat4\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj": {}
+    "C:\\Users\\argo\\Desktop\\Adrian\\Practica\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj": {}
   },
   "projects": {
-    "C:\\Users\\argo\\Desktop\\Adrian\\Activitat4\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj": {
+    "C:\\Users\\argo\\Desktop\\Adrian\\Practica\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\argo\\Desktop\\Adrian\\Activitat4\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj",
+        "projectUniqueName": "C:\\Users\\argo\\Desktop\\Adrian\\Practica\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj",
         "projectName": "cat.itb.store_VillodresAdrian",
-        "projectPath": "C:\\Users\\argo\\Desktop\\Adrian\\Activitat4\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj",
+        "projectPath": "C:\\Users\\argo\\Desktop\\Adrian\\Practica\\cat.itb.store_VillodresAdrian\\cat.itb.store_VillodresAdrian.csproj",
         "packagesPath": "C:\\Users\\argo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\argo\\Desktop\\Adrian\\Activitat4\\cat.itb.store_VillodresAdrian\\obj\\",
+        "outputPath": "C:\\Users\\argo\\Desktop\\Adrian\\Practica\\cat.itb.store_VillodresAdrian\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\argo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "MongoDB.Driver.signed": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.5.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
